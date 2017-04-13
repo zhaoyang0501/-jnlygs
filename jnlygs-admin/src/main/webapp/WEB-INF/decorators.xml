@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<decorators defaultdir="/WEB-INF/jspview/decorators">
+ <excludes> 
+        <pattern>/survey/create/questionitem*</pattern> 
+    </excludes> 
+    <!--main decorator-->
+    <decorator name="main" page="main.jsp">
+        <pattern>/sys/*</pattern>
+        <pattern>/bbs/*</pattern>
+        <pattern>/exam/*</pattern>
+        <pattern>/news/*</pattern>
+        <pattern>/project/*</pattern>
+        <pattern>/hotel/*</pattern>
+          <pattern>/order/*</pattern>
+        <pattern>/hotelorder/*</pattern>
+         <pattern>/frontuser/*</pattern>
+        <pattern>/center/*</pattern>
+        <pattern>/book/*</pattern>
+        <pattern>/score/*</pattern>
+        <pattern>/survey/*</pattern>
+    </decorator>
+
+
+</decorators>
